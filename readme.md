@@ -1,8 +1,6 @@
-# Angular Auto init (Angular 2 Style)
+# Angular App Init (Angular 2 Style)
 
-Idea: auto-bootstrap angular.js apps by using custom HTML Elements.
-
-Note: This is just a small proof of concept
+Idea: bootstrap angular.js apps by using custom HTML Elements. (as seen in Component Directives in Angular 2)
 
 Example: [See it in action](http://weiland.github.io/angular-directive-init)
 
@@ -12,6 +10,8 @@ instead of writing `<html ng-app="testApp">` one can easily use:
   <my-customer></my-customer>
 </test-app>
 ```
+
+Note: This is just a small proof of concept
 
 ### Use it 
 ##### Prepare
@@ -30,4 +30,4 @@ Include `modLoader.js` *after* including angular.js and *before* including your 
 - refactor
 - ng interceptor 
  
- 
+
