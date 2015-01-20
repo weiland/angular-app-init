@@ -6,6 +6,13 @@ Note: This is just a small proof of concept
 
 Example: [See it in action](http://weiland.github.io/angular-directive-init)
 
+instead of writing `<html ng-app="testApp">` one can easily use: 
+```html
+<test-app>
+  <my-customer></my-customer>
+</test-app>
+```
+
 ### Use it 
 ##### Prepare
 Include `modLoader.js` *after* including angular.js and *before* including your app.
@@ -17,9 +24,10 @@ Include `modLoader.js` *after* including angular.js and *before* including your 
 ```
 
 ##### "run" your app
-Instead of using the ng-app attribute, the script creates a custom html element with the module's name. If you named your module `myApp` you can run your app by just adding `<my-app></my-app>` into your html. my-app is your application scope which means that all your code goes into that.
+ If you named your module `myApp` you can run your app by just adding `<my-app></my-app>` into your html. my-app is your application scope which means that all your code goes into that.
 
 ### Todo
 - refactor
 - ng interceptor 
+ 
  
