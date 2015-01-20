@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS auto load (Angular 2 Style)</title>
+  </head>
+
+  <body>
+    <plunker-app>
+      <div ng-controller="MainCtrl">
+        <p>Hello {{name}}!</p>
+      </div>
+    </plunker-app>
+
+    <test-app>
+      <my-customer></my-customer>
+    </test-app>
+
+    <br>
+    <br>
+    <myapp>
+      <good-bye name="Weiland"></good-bye>
+    </myapp>
+
+    <script src="//code.angularjs.org/1.3.9/angular.js"></script>
+    <script src="modLoader.js"></script>
+    <script src="app.js"></script>
+  </body>
+
+</html>

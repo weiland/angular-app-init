@@ -1,0 +1,22 @@
+{
+  "name": "ng-batterystatus",
+  "main": "ng-batterystatus.js",
+  "version": "0.0.1",
+  "authors": [
+    "Pascal Weiland <pascal@seehin.de>"
+  ],
+  "description": "Battery Statys API for Angular\"",
+  "keywords": [
+    "angular",
+    "battery"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
