@@ -2,7 +2,7 @@
 
 Idea: bootstrap angular.js apps by using custom HTML Elements. (as seen in Component Directives in Angular 2)
 
-Example: [See it in action](http://weiland.github.io/angular-directive-init)
+Example: [See it in action](http://weiland.github.io/angular-app-init)
 
 instead of writing `<html ng-app="testApp">` one can easily use: 
 ```html
